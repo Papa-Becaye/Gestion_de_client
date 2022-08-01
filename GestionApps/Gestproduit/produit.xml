@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE produits [
+    <!ELEMENT produits (produit+)>
+    <!ELEMENT produit (libelle,categorie,stock)>
+    <!ELEMENT libelle (#PCDATA)>
+    <!ELEMENT categorie (libelle)>
+    <!ELEMENT stock (#PCDATA)>
+    <!ATTLIST produit numProd ID #REQUIRED>
+    <!ATTLIST categorie CID IDREF #REQUIRED>
+]>
+<produits>
+    <produit numProd="#">
+        <libelle></libelle>
+        <categorie CID="#">
+            <libelle></libelle>
+        </categorie>
+        <stock></stock>
+    </produit>
+</produits>
