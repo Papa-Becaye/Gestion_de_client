@@ -9,9 +9,9 @@
     <!ATTLIST categorie CID IDREF #REQUIRED>
 ]>
 <produits>
-    <produit numProd="#">
+    <produit numProd="a1999">
         <libelle></libelle>
-        <categorie CID="#">
+        <categorie CID="a1999">
             <libelle></libelle>
         </categorie>
         <stock></stock>

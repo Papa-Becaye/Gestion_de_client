@@ -14,8 +14,8 @@
     <!ATTLIST buyer numero ID #REQUIRED>
     ]>
     <client>
-        <buyer numero="147">
-            <nom></nom>
+        <buyer number="_158">
+            <nom>Babou</nom>
             <prenom></prenom>
             <telephone></telephone>
             <date_lieunaissance>
